@@ -1,0 +1,202 @@
+also hier mal die erste mail ovm Projekt ...
+
+es handelt sich ums GENSO Projekt ...
+da hab ich von Anfang an mitgemacht ... ist aber schon lange fest in
+den Sand gefahren ... aber alle streiten sich noch um das Projekt ...
+ist mir egal ... ich habe noch alle intellectual property rights und
+braue jetzt mein eigenes Süppchen ...
+
+
+wie funktionierts in der Theorie ... GENSO 1 geht auch "solala"
+http://en.wikipedia.org/wiki/Global_Educational_Network_for_Satellite_Operations
+
+nun ... wie ich mir das vorstelle
+
+1) BOINC
+ein / viele Boinc server
+http://boinc.berkeley.edu/trac/wiki/ServerIntro
+
+jede Mission/Projekt hat sein eingenen Boing server, der die
+Datenbanken beinhaltet
+
+(da fehlt jetzt noch der scheduler ... den kann aber zu anfang an mal
+ein random selection sceduler sein ... ist fair und geht auch ganz gut)
+wenn man mehr planung drin haben will würde ich diesen scheduler
+"vergewaltigen" ...
+http://www.tablix.org/
+müsste aber noch in MPIch ungeschrieben werden ist aber schon parallel
+(in PVM)
+
+2) wo sind die sats ...
+http://gpredict.oz9aec.net/
+mit diesem Ding kann man die satelliten tracken ... und die Hardware
+wie z.B. das Funkgerät und den Antennenrotator ansteuern
+
+geht über rigctld und rotctld
+die zwei haben noch so ihre Problemchen ... und stürzen manchmal "bei
+gleichzeitiger Verwendung) ab ... muß man sich anschauen ... ich hab
+die momentan auf verschiedenen rechnern laufen und dann gehts ...
+aber natürlich gibt es klassische Probleme wie RS232 Kommunikation mit
+den Funkies (und deren Probleme) und dergleichen ... man hat aber eine
+riesige Community die einem hilft und einem die Füße küsst wenn's
+besser wird.
+
+Es gibt schon so was wie ein Fenster in gpredict wo man die Sats sehen
+kann wann die die GS überfliegen ... aber da gibt's noch keinen
+Konflikt-löser oder "Auswahlmöglichkeiten" welche sats man mag und
+welche man nicht mag ... zudem ist momentan immer nur ein sat
+auswählbar, den man tracken will ... das muß dann dynamischer werden.
+
+Am Anfang sollte das einfach mal für die Standardkomponenten
+funktionieren ... die Amateurfunker und die Industrie schreiben sich
+dann schon die Treiber für Ihre Hardware nach ...
+
+3) die Daten Decodieren
+die geschieht mit häufig mit
+http://ukhas.org.uk/projects:dl-fldigi
+was auf GnuRadio zurückgreift ... ist ganz mächtig das Ding ... und
+kann schon seine Einstellungen und HighAltitudeBalloon transmitter zu
+Empfangen von Servern holen (schaut mal unter dem HAB modul nach ...)
+Braucht man dann für die einzelnen Sats ...
+...
+
+nun das waren alle Komponenten die man für Genso braucht ...
+keine Hexerei ...
+
+für das Sourceforge Projekt müsste folgendes von Anfang an gemacht
+werden ...
+
+a) - Howto install GENSO-server oder Mission Control Center (MCC) (so
+was wie ein deb oder redhat Packet)
+das beinhaltet auch vielleicht patches von den oben genannten
+Programmen ...
+- Howto maintain MCC (admin Handbuch ... ist eigentlich nur eine
+Ergänzung zu BOINC und wie man die Sat-Daten aus der DB bekommt ... ne
+klassische DB-API) und die scheduling Komponente im BOINC-server.
+b) - Howto install GENSO-Client Ground Station Client GSC (deb oder
+redhat packet oder eine dumme Windows installer.exe) (die Namensgebung
+ist hier absichtlich Client! bei Genso war das echt Mist und wurde
+Server genannt ... isser aber nicht)
+- Client Handbuch ... braucht nicht schön sein ... muß verständlich
+sein ... ist meist nur ne referenz auf die Handbücher von DL-fldigi
+und gpredict.
+
+
+funktionsweise die ich mir vorstelle (weicht doch recht drastisch von
+dem ursprünlichen GENSO ab)
+
+die GSCs pollen die MCCs nach jobs (klassisch wie bei BOINC). die GSC
+Leutchen (Amateurfunker) können sich die MCCs (also die
+Projekte/Cubesats die sie mögen) aussuchen. Die MCCs wissen durch den
+poll welche GSC das ist (dei GSC sind ja als Benutzer am Server
+registriert, Hardware und Frequenzbänder die die so fähig ist) und wo
+sie sich befindet - damit kann sie (die MCC) entscheiden ob sie einen
+Job "vergibt" (der GSC vertraut) ... und vergibt einen Job z.B.
+Empfange Sat X zu dem und dem Zeitpunkt. Die GSC kann dann von sich
+aus die TLE (orbitdaten) von der Nasa abholen und gpredict justieren
+und nachschauen ob es Konflikte mit anderen Jobs gibt .... (beim
+reinen Empfangen lokales Problem ... ist durch die Diss von Bastian
+Preindl und gelöst)
+Die GSC kann dann auch am HAB-artigen Server die Freq und Protokolle
+und den Kram erfragen ... und sollte das auch noch mal kurz vor dem
+Überflug "nachjustieren" ... Die Empfangenen und verifizierten Daten
+werden dann in eine lokale DB geschrieben ... die der BOINC client
+wieder an den BOINC server überträgt ... wenn mal Zeit ist ...
+Der Boinc Server sollte diese Daten mit Daten von anderen GSCs falls
+möglich verifizieren (sonst freut man sich halt das man überhaupt
+Daten bekommen hat :) )
+
+Generell sollte man das Projekt als nicht nur passive Bodenstationen
+die Sat Daten Empfangen können sehen ... sonder auch als aktive
+Bodenstationen, die den Sats auch was schicken können (senden) ... Das
+ist wesentlich komplexer ... aber im Grunde immernoch die selbe
+scheduling Problematik von vorher (Bastian Preindl). Der Benutzer der
+GSC sollte beim Anmelden am Projekt angeben können ober er nur
+passives "horchendes" oder auch aktives "sendendes" Element des
+Netzwerkes für diesen Sat sein will (ist für die MCC wichtig) - Ist
+das der Fall schickt man der GSC einen Job mit verschlüsselten
+Datensatz (RSA etc. ) der dann nur in der richtigen GSC entschlüsselt
+werden kann und mit dl-fldigi ins richtige Protokoll umgewandelt und
+"verschickt" (mit der Richtigen Freq. in der richtigen Form gesendet)
+werden kann. Beim senden muß man halt doppelt aufpassen, das keine
+zwei GSCs auf der gleichen Freq. zur gleichen Zeit senden ... und
+wenn's passiert ... ist das auch kein Beinbruch ... sollte aber durch
+die Jobvergabe gelöst sein (am MCC läuft auch ein gpredict der
+sende-job-konlikte löst ... first come first serve hat sich gut
+bewährt und ist super einfach ... ist aber in der ersten Phase mal
+nicht notwendig (bitte aber nicht vergessen))
+
+das war die ganze Hexerei ... und ich frage mich wirklich warum das
+noch keiner so gemacht hat ...
+
+Arbeiten:
+naja ... am meisten Arbeit liegt hier im modifizieren von gpredict ...
+die muß nun dynamisch die SATs wechseln und konflikte lösen (sollte
+beides keine Hexerei sein)
+dl-fldigi kann ebenfalls das Funkgerät bedienen (genauso wie gpredict
+geht das über gnu-radio komponenten) und die freq verändern und auf's
+PTT (push to talk) Knöpfchen drücken können ... wenn man Daten senden
+will. Hier sind wohl ein paar Änderungen notwending. Schön wäre es ein
+eigenes HAB-artiges Modul zu schreiben. Die Empfangenen Daten werden
+bei dem momentanen HAB modul sogar schon an einen server gesendet (man
+brauch das also nur umschreiben) ... und man sollte sich schon
+überlegen wie man Daten vom Server bekommt und diese dann senden zu
+können (ist normalerweise in diesen Softwareprojekten NIE vorgesehen)
+der BOINC-server ist eigentlich ziemlich standard. Ich lege überhaupt
+keinen Wert auf schöne Oberflächen ... sollte man auch nicht ...
+funktionieren solls halt. Die DB-Schreib-Lese-forgänge kann dann ja
+jeder mit seinem "Hübschen" Programm machen ... wenn er will ... die
+Daten sollen halt in der DB sein ... dann ist es doch recht einfach
+eine Hübsche MCC Oberfläche zu basteln.
+
+
+es gibt noch ein Konkurenzprodukt zu gpredict (orbitron) ist aber
+kommerziell und somit nicht akzeptabel.
+
+wozu das alles
+Es gibt viele viele viele Cubesats und auch größere studentische
+satelliten die das ganze wikommen heissen würden ... die meisten
+verwenden momentan GENSO (Version 1) ... ne echt schlechte Software ...
+und es gibt ein Projekt namens QB50
+https://www.qb50.eu/
+das GENSO auch dringend brauchen würde ... die momentane Entscheidung
+das Schweizer System zu verwenden ist ... meiner Meinung nach ... eine
+Katastrophe ... naja ... Politik halt ... ob QB50 was wird - hängt
+stark von den Daten ab, die man runter bekommt ... da die sats nur
+wirklich kurz oben im Orbit sind ... wenn Daten gesammelt werden die
+dann "verbrennen" ... ist das recht dumm.
+
+Ich würde euch empfehlen euch möglicht aus den QB50 oder GENSO
+Diskussionen herauszunehmen, da Ihr sehr schnell sehen werdet, das das
+alles schr schnell sehr politisch wird ...
+Meine Idee ist hier recht einfach ... Die Leutchen vor vollendete
+Tatsachen zu stellen ... und dann werden Sie schon sehen ...
+Ihr werdet sehen, das Ihr sehr schnell viele Unterstützer unter
+Sourceforge bekommt, da der Name doch schon recht bekannt ist ...
+Soll ich mal bei Sourceforge ein GENSO Projekt starten ?
+Wie wollen wir das nennen da Genso schon einen "üblen" Ruf hat.
+BOINSO wäre meine Idee ... (Berkley Open Infrastructure for Networking
+Satellite Operations) und ich würde frecherweise das GENSO Logo und
+das BOINC Logo einfach mixen ... was recht einfach geht ...
+
+nun ... das mal so als Abendlektüre ...
+Wenn das ganze mal funktioniert kann man vielleicht sogar Projekte
+damit starten, die ESA finanziert sind ... momentan sieht das recht
+düster aus ... da GENSO so verfahren ist ...
+
+Ein Paar Besuche bei der ESA sollten aber auf jeden Fall drin sein ...
+aber bitte erst wenn's "so recht und schlecht" funktioniert, da sonst
+diese blöde ESA Politik wieder zum tragen kommt ... die wollen Ihre
+art und weise Software zu Programmieren anwenden ... das geht aber
+nicht da wir keine 15 Jahre Zeit haben das Projekt umzusetzen ...
+zudem passt das nicht bei Opensource Projekten ... das lernen die aber
+auch gerade ...
+(es wird momentan alles zu tode getested und dokumentiert ... es gibt
+da Standards ... die Ihr gar nicht kennen wollt ... dies war der
+Beginn vom Tod von Genso ... kein Student liest sich 150.000 Seiten
+GENSO Doku GENAU durch bevor er in ein Projekt einsteigt ... und das
+ist keine erfundene Nummer!)
+
+
+mfg
+Lars
