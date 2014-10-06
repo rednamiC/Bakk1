@@ -1,0 +1,31 @@
+\begin{thebibliography}{}
+
+\bibitem[Akahoshi et~al., 2008]{akahoshi_influence_2008}
+Akahoshi, Y., Nakamura, T., Fukushige, S., Furusawa, N., Kusunoki, S., Machida,
+  Y., Koura, T., Watanabe, K., Hosoda, S., Fujita, T., and Cho, M. (2008).
+\newblock Influence of space debris impact on solar array under power
+  generation.
+\newblock {\em International Journal of Impact Engineering}, 35(12):1678--1682.
+
+\bibitem[Horne et~al., 2005]{horne_wave_2005}
+Horne, R.~B., Thorne, R.~M., Shprits, Y.~Y., Meredith, N.~P., Glauert, S.~A.,
+  Smith, A.~J., Kanekal, S.~G., Baker, D.~N., Engebretson, M.~J., Posch, J.~L.,
+  Spasojevic, M., Inan, U.~S., Pickett, J.~S., and Decreau, P. M.~E. (2005).
+\newblock Wave acceleration of electrons in the van allen radiation belts.
+\newblock {\em Nature}, 437(7056):227--230.
+
+\bibitem[Leveque et~al., 2007]{leveque_global_2007}
+Leveque, K., Puig-Suari, J., and Turner, C. (2007).
+\newblock Global educational network for satellite operations ({GENSO}).
+\newblock {\em {AIAA}/{USU} Conference on Small Satellites}.
+
+\bibitem[Preindl, 2010]{preindl_optimization_2010}
+Preindl, B. (2010).
+\newblock {\em Optimization of a Global Network for Satellite Operations}.
+
+\bibitem[Ries, 2012]{ries_boinc_2012}
+Ries, C.~B. (2012).
+\newblock {\em {BOINC} - Hochleistungsrechnen mit Berkeley Open Infrastructure
+  for Network Computing}.
+
+\end{thebibliography}
