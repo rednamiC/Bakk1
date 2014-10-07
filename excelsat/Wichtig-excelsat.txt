@@ -1,0 +1,59 @@
+
+!!!!! W I C H T I G !!!!!
+
+Bitte die Datei "excelsat*.xls" + "stations.txt" nach C:\excelsat\ 
+entpacken! Die Dateien müssen im Verzeichnis C:\excelsat\ liegen! 
+
+[Streng genommen muss nur die Bahndatendatei "stations.txt"
+im Verzeichnis C:\excelsat\ liegen, da die Excel-Datei hieraus 
+die Bahndaten der Satelliten importiert!]
+
+Man kann das Verzeichnis und den Namen der stations.txt-Datei 
+auch später ändern. Siehe hierzu im Programm den Button "Import".
+Nach Änderung des Imports >> Datei speichern!
+Für die Erstinstallation muß aber das angegebene Verzeichnis 
+gewählt werden!
+
+Die Bahndatendatei "stations.txt" beinhaltet die Satellitenbahndaten, 
+welche von der Excel-Datei automatisch eingelesen werden. 
+
+So bekommt man die aktuellen Bahndaten:
+
+Für eine genaue Positionsberechnung sollten die Bahndaten nicht
+älter als 3 max. 5 Tage sein!
+
+>>>> Aktualisierung der Bahndaten >>>>>
+
+1.) 
+Unter den unten aufgeführten Internet-Adressen gelangt man zu 
+den gewünschten Satelliten-Bahndaten (im NASA 2Line Format). 
+
+2.) 
+Es öffnet sich ein Textfenster, welches man als "stations.txt" 
+mit dem Internet-Browser (Datei - speichern unter) im Verzeichnis 
+C:\excelsat\ abspeichert. 
+
+Bitte *.txt- Format als Dateiformat beim Speichern auswählen!
+
+
+Bahndaten aller verfügbaren Satelliten: 
+http://www.celestrak.com/NORAD/elements/ 
+
+Bahndaten von u.a. ISS (Internationale Raumstation): 
+http://www.celestrak.com/NORAD/elements/stations.txt 
+
+Bahndaten von u.a. UARS und HST: 
+http://www.celestrak.com/NORAD/elements/science.txt
+
+Bahndaten von u.a. SEASAT 1:
+http://www.celestrak.com/NORAD/elements/visual.txt 
+
+
+
+
+Viel Spaß wünscht der Autor
+Th. Kraus
+
+e-mail:  kraust@web.de
+hompage: www.astroexcel.de
+

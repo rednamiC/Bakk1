@@ -1,0 +1,32 @@
+
+Aktuell: 
+
+Fehleranzeige "Mangelnder Arbeitspeicher" beim Start der Datei "excelsat-2D.xls" bzw.
+"excelsat-3D.xls", trotz ausreichendem Arbeitsspeicher....
+
+Dieses Problem wird mir in letzter Zeit oft zugetragen. Auf meinem Rechner 
+PIII 500 mit 128 RAM (Win 98) sowie auf einem Windows NT Rechner P II 333 
+mit 128 RAM läuft die Excel-Datei bei mir problemlos.
+
+Versuchen Sie´s mal wie folgt:
+
+a) Alle zusätzlich laufende Programme beenden (evtl. Rechner neu starten)!
+b) Auf der Festplatte c:\ sollte mindestens 200 MB freier Speicherplatz vorhanden sein!
+
+c) Optimierung der virtuellen Windows-Auslagerungsdatei
+... unter Windows 98 geht´s wie folgt: 
+1. Start - Systemsteuerung - System - Karteikarte "Leistungsmerkmale" 
+2. unter Virtueller Arbeitsspeicher "Benutzerdefinierte Eigenschaften" aktivieren 
+3. für Minimum und Maximum gleichen Wert eingeben
+
+Tabelle mit Werten für virtuellen Arbeitsspeicher:
+
+64 MB RAM Arbeitsspeicher  :   192 MB virt. Arbeitsspeicher
+128 MB RAM Arbeitsspeicher :   384 MB virt. Arbeitsspeicher
+
+Die MS-Office-Programme (Word, Excel, ...) benötigen ausreichend virtuellen Arbeitsspeicher!
+
+Anmerkung:
+
+Für beide excelsat-Dateien sollte mindestens ein Rechner mit mind. 125 MB Arbitsspeicher
+und mind. 1200 MHz (besser 1800 MHz oder höher) verwendet werden!
