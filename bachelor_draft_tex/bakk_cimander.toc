@@ -1,5 +1,5 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Chap 1}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
-\contentsline {chapter}{\numberline {2}Chap 2}{1}{chapter.2}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Background}{1}{chapter.2}
+\contentsline {section}{\numberline {2.1}\ac {GENSO}}{1}{section.2.1}
 \contentsline {chapter}{\numberline {3}Glossary}{2}{chapter.3}
