@@ -1,11 +1,29 @@
 \begin{thebibliography}{}
 
+\bibitem[TLE, 2011]{TLE}
+ (2011).
+\newblock {Definition of Two-line Element Set Coordinate System}.
+\newblock
+  \url{http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html}.
+\newblock Accessed: 2014-11-24.
+
 \bibitem[Akahoshi et~al., 2008]{akahoshi_influence_2008}
 Akahoshi, Y., Nakamura, T., Fukushige, S., Furusawa, N., Kusunoki, S., Machida,
   Y., Koura, T., Watanabe, K., Hosoda, S., Fujita, T., and Cho, M. (2008).
 \newblock Influence of space debris impact on solar array under power
   generation.
 \newblock {\em International Journal of Impact Engineering}, 35(12):1678--1682.
+
+\bibitem[Attai et~al., 2014]{attai_phonesat_2014}
+Attai, W., Guillen, S.~A., Oyadomari, K.~Y., Priscal, C., Shimmin, R.~S.,
+  Gazulla, O.~T., and Wolfe, J.~L. (2014).
+\newblock Phonesat in-flight experience results.
+\newblock Majorca, Spain.
+
+\bibitem[{California Polytechnic State University},
+  2014]{california_polytechnic_state_university_cubesat_2014}
+{California Polytechnic State University} (2014).
+\newblock {\em {CubeSat} Design Specification - ({CDS}) {REV}13.pdf}.
 
 \bibitem[Horne et~al., 2005]{horne_wave_2005}
 Horne, R.~B., Thorne, R.~M., Shprits, Y.~Y., Meredith, N.~P., Glauert, S.~A.,
@@ -14,10 +32,19 @@ Horne, R.~B., Thorne, R.~M., Shprits, Y.~Y., Meredith, N.~P., Glauert, S.~A.,
 \newblock Wave acceleration of electrons in the van allen radiation belts.
 \newblock {\em Nature}, 437(7056):227--230.
 
+\bibitem[Jurvetson, 2011]{jurvetson_nasa_2011}
+Jurvetson, S. (2011).
+\newblock {\em {NASA} {PhoneSat}}.
+\newblock via Flickr.
+
 \bibitem[Leveque et~al., 2007]{leveque_global_2007}
 Leveque, K., Puig-Suari, J., and Turner, C. (2007).
 \newblock Global educational network for satellite operations ({GENSO}).
 \newblock {\em {AIAA}/{USU} Conference on Small Satellites}.
+
+\bibitem[{ppl4world}, 2012]{ppl4world_ardusat_2012}
+{ppl4world} (2012).
+\newblock {\em {ArduSat} - Your Arduino Experiment in Space}.
 
 \bibitem[Preindl, 2010]{preindl_optimization_2010}
 Preindl, B. (2010).
@@ -27,5 +54,10 @@ Preindl, B. (2010).
 Ries, C.~B. (2012).
 \newblock {\em {BOINC} - Hochleistungsrechnen mit Berkeley Open Infrastructure
   for Network Computing}.
+
+\bibitem[{Surrey Satellite Technology Ltd.},
+  2011]{surrey_satellite_technology_ltd._iac-11-b4.6b.8_2011}
+{Surrey Satellite Technology Ltd.}, editor (2011).
+\newblock {\em {IAC}-11-B4.6B.8}.
 
 \end{thebibliography}

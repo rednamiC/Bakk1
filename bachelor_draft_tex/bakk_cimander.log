@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.5)  17 NOV 2014 16:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.5)  24 NOV 2014 02:11
 entering extended mode
 **bakk_cimander.tex
 
@@ -780,7 +780,7 @@ Overfull \hbox (26.5162pt too wide) in paragraph at lines 20--20
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 20.
-<PICs/Arbeiten.png, id=19, 1489.565pt x 2107.875pt>
+<PICs/Arbeiten.png, id=39, 1489.565pt x 2107.875pt>
 File: PICs/Arbeiten.png Graphic file (type png)
  <use PICs/Arbeiten.png>
 Package pdftex.def Info: PICs/Arbeiten.png used on input line 20.
@@ -845,55 +845,146 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--23
 
  []
 
+[1
+
+]
 Chapter 2.
 
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ge
-nso.tex") [1
+nso.tex"
+Package acronym Info: Label `acro:AUS' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
+ <PICs/GENSO_LayerModel.jpg, id=156, 463.7325pt x 231.11343pt>
+File: PICs/GENSO_LayerModel.jpg Graphic file (type jpg)
 
-]
+<use PICs/GENSO_LayerModel.jpg>
+Package pdftex.def Info: PICs/GENSO_LayerModel.jpg used on input line 8.
+(pdftex.def)             Requested size: 341.43306pt x 170.16432pt.
+)
+("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\cu
+besats.tex"
+Package acronym Info: Label `acro:SSDL' newly defined as it shall be overridden
+
+although it is yet undefined on input line 1.
+Package acronym Info: Label `acro:SSTL' newly defined as it shall be overridden
+
+although it is yet undefined on input line 5.
+Package acronym Info: Label `acro:NASA' newly defined as it shall be overridden
+
+although it is yet undefined on input line 5.
+ <PICs/NASA_PhoneSat.jpg, id=167, 1284.8pt x 963.6pt>
+File: PICs/NASA_PhoneSat.jpg Graphic file (type jpg)
+
+<use PICs/NASA_PhoneSat.jpg>
+Package pdftex.def Info: PICs/NASA_PhoneSat.jpg used on input line 9.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+)
+Underfull \hbox (badness 1681) in paragraph at lines 1--30
+\T1/phv/m/n/10.95 The de-vel-op-ment of Cube-Sats started in 1999 with mem-bers
+ of [][] and [][][] Stan-
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 1--30
+\T1/phv/m/n/10.95 ford Uni-ver-sity Space Sys-tems De-vel-op-ment Lab-o-ra-tory
+ ([])[]. The nanosatel-lites'
+ []
+
+
+Underfull \hbox (badness 3189) in paragraph at lines 1--30
+\T1/phv/m/n/10.95 stan-dard is $\OT1/cmr/m/n/10.95 10 \OMS/cmsy/m/n/10.95  \OT
+1/cmr/m/n/10.95 10 \OMS/cmsy/m/n/10.95  \OT1/cmr/m/n/10.95 10$ [][] \T1/phv/m/
+n/10.95 with a max-i-mum weight of 1.33 [][] (1U Cube-Sat)
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 1--30
+\T1/phv/m/n/10.95 Several com-pa-nies re-search the use of smart-phone pro-ces-
+sors as the cen-tral avion-
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 1--30
+\T1/phv/m/n/10.95 ics in in high al-ti-tude lead-ing to the first suc-cess-full
+ launch of a Cube-Sat stocked
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--30
+
+ []
+
+[2 <C:/Users/PC/Documents/FH/5. Semester/Bakkarbeit/sat-bak/bachelor_draft_tex/
+PICs/GENSO_LayerModel.jpg>] [3 <C:/Users/PC/Documents/FH/5. Semester/Bakkarbeit
+/sat-bak/bachelor_draft_tex/PICs/NASA_PhoneSat.jpg>]
+Chapter 3.
+
+("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\op
+ensource_solution.tex")
+("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\bo
+inc.tex"
+Package acronym Info: Label `acro:TLE' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+ <PICs/Diagramm1.png, id=215, 695.59875pt x 509.905pt>
+File: PICs/Diagramm1.png Graphic file (type png)
+
+<use PICs/Diagramm1.png>
+Package pdftex.def Info: PICs/Diagramm1.png used on input line 17.
+(pdftex.def)             Requested size: 284.52756pt x 208.57222pt.
+)
+("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\gp
+redict.tex") [4]
+("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\fl
+digi.tex") [5 <C:/Users/PC/Documents/FH/5. Semester/Bakkarbeit/sat-bak/bachelor
+_draft_tex/PICs/Diagramm1.png>]
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ac
 ronym_list.tex"
-Chapter 3.
-) [2
+Chapter 4.
+) [6
 
 ]
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
 kk_cimander.bbl"
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 30.
- [3
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
+) [7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 30.
+("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
+kk_cimander.lof")
+\tf@lof=\write6
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
+ [8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
 
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
 kk_cimander.aux"
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ac
 ronym_list.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 30.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 30.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `bakk_cimander.out' has not changed.
-(rerunfilecheck)             Checksum: CDC448E5FFA48F63BAC659225E4CF4E0;190.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 30.
+(rerunfilecheck)             Checksum: 47403D100577F47BF975CFD52ECE7B99;572.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 9895 strings out of 493921
- 143809 string characters out of 3146489
- 272512 words of memory out of 3000000
- 12937 multiletter control sequences out of 15000+200000
- 36740 words of font info for 55 fonts, out of 3000000 for 9000
+ 10042 strings out of 493921
+ 146955 string characters out of 3146489
+ 276105 words of memory out of 3000000
+ 13029 multiletter control sequences out of 15000+200000
+ 39630 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 47i,11n,44p,527b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,11n,44p,660b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
-les (x86)/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/Mi
-KTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/t
-ype1/urw/helvetic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/pa
-latino/uplr8a.pfb>
-Output written on bakk_cimander.pdf (8 pages, 287515 bytes).
+les (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x8
+6)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
+TeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/ty
+pe1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/helv
+etic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/uplr8a
+.pfb>
+Output written on bakk_cimander.pdf (13 pages, 2050696 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

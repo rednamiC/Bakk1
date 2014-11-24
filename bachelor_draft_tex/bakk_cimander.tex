@@ -19,12 +19,30 @@
 \maketitle
 
 \chapter{Introduction}
-\input{introduction}
+	\input{introduction}
+	
+\newpage
 \chapter{Background}
-\section{\ac{GENSO}}
-\input{genso}
+	\section{\acf{GENSO}}	
+		\input{genso}
+	\section{CubeSats}
+		\input{cubesats}
+
+\newpage
+\chapter{Open Source Solution}
+	\input{opensource_solution}
+	\section{\acf{BOINC}}
+		\input{boinc}
+	\section{Gpredict} \label{sec:gpred_label}
+		\input{gpredict}
+	\section{Fldigi}
+		\input{fldigi}
+	
 \include{acronym_list}
 \bibliography{Bachelor1}
 \bibliographystyle{apalike}
+
+\newpage
+\listoffigures
 
 \end{document}

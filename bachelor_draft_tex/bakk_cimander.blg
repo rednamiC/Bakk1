@@ -1,50 +1,13 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Cygwin)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: bakk_cimander.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: bakk_cimander.aux
 A level-1 auxiliary file: acronym_list.aux
 The style file: apalike.bst
 Database file #1: Bachelor1.bib
+Warning--to sort, need author or key in TLE
+Warning--empty booktitle in attai_phonesat_2014
+Warning--empty publisher in california_polytechnic_state_university_cubesat_2014
+Warning--empty publisher in jurvetson_nasa_2011
+Warning--empty publisher in ppl4world_ardusat_2012
 Warning--empty publisher in preindl_optimization_2010
 Warning--empty publisher in ries_boinc_2012
-You've used 5 entries,
-            1935 wiz_defined-function locations,
-            501 strings with 4853 characters,
-and the built_in function-call counts, 2360 in all, are:
-= -- 203
-> -- 163
-< -- 2
-+ -- 60
-- -- 60
-* -- 227
-:= -- 433
-add.period$ -- 13
-call.type$ -- 5
-change.case$ -- 53
-chr.to.int$ -- 5
-cite$ -- 7
-duplicate$ -- 69
-empty$ -- 129
-format.name$ -- 65
-if$ -- 430
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 7
-newline$ -- 26
-num.names$ -- 15
-pop$ -- 57
-preamble$ -- 1
-purify$ -- 55
-quote$ -- 0
-skip$ -- 51
-stack$ -- 0
-substring$ -- 116
-swap$ -- 5
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 26
-warning$ -- 2
-while$ -- 14
-width$ -- 0
-write$ -- 60
-(There were 2 warnings)
+Warning--empty publisher in surrey_satellite_technology_ltd._iac-11-b4.6b.8_2011
+(There were 8 warnings)
