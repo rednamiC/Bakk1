@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.5)  2 DEC 2014 17:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.5)  2 DEC 2014 17:53
 entering extended mode
 **bakk_cimander.tex
 
@@ -993,7 +993,7 @@ ronym_list.aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `bakk_cimander.out' has not changed.
-(rerunfilecheck)             Checksum: 330D322AA48F25F7F04FA4466B9B00BB;575.
+(rerunfilecheck)             Checksum: 4CC829FF0EF8F9E9117D4A9356A965FD;562.
 
 
 LaTeX Warning: There were undefined references.
@@ -1003,7 +1003,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
 Here is how much of TeX's memory you used:
  10093 strings out of 493921
  147970 string characters out of 3146489
- 278117 words of memory out of 3000000
+ 277117 words of memory out of 3000000
  13064 multiletter control sequences out of 15000+200000
  41079 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1015,7 +1015,7 @@ TeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/helv
 etic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/uplb8a
 .pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on bakk_cimander.pdf (14 pages, 2348625 bytes).
+Output written on bakk_cimander.pdf (14 pages, 2348591 bytes).
 PDF statistics:
  335 PDF objects out of 1000 (max. 8388607)
  89 named destinations out of 1000 (max. 500000)
