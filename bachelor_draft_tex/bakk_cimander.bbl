@@ -1,12 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[TLE, 2011]{TLE}
- (2011).
-\newblock {Definition of Two-line Element Set Coordinate System}.
-\newblock
-  \url{http://spaceflight.nasa.gov/realdata/sightings/SSapplications/Post/JavaSSOP/SSOP_Help/tle_def.html}.
-\newblock Accessed: 2014-11-24.
-
 \bibitem[Akahoshi et~al., 2008]{akahoshi_influence_2008}
 Akahoshi, Y., Nakamura, T., Fukushige, S., Furusawa, N., Kusunoki, S., Machida,
   Y., Koura, T., Watanabe, K., Hosoda, S., Fujita, T., and Cho, M. (2008).
@@ -24,6 +17,23 @@ Attai, W., Guillen, S.~A., Oyadomari, K.~Y., Priscal, C., Shimmin, R.~S.,
   2014]{california_polytechnic_state_university_cubesat_2014}
 {California Polytechnic State University} (2014).
 \newblock {\em {CubeSat} Design Specification - ({CDS}) {REV}13.pdf}.
+
+\bibitem[Csete, 2011]{csete_gpredict_2011}
+Csete, A. (2011).
+\newblock {\em Gpredict User Manual}.
+
+\bibitem[{GNU Radio Website}, a]{gnu_radio_companion}
+{GNU Radio Website}.
+\newblock {\em GRC}.
+
+\bibitem[{GNU Radio Website}, b]{gnu_radio_website_welcome_????}
+{GNU Radio Website}.
+\newblock {\em Welcome to {GNU} Radio!}
+
+\bibitem[Hoots and Roehrich, 1980]{hoots_spacetrack_1980}
+Hoots, F.~R. and Roehrich, R.~L. (1980).
+\newblock {\em {SPACETRACK} {REPORT} {NO}. 3 - Models for Propagation of
+  {NORAD} Element Sets}.
 
 \bibitem[Horne et~al., 2005]{horne_wave_2005}
 Horne, R.~B., Thorne, R.~M., Shprits, Y.~Y., Meredith, N.~P., Glauert, S.~A.,

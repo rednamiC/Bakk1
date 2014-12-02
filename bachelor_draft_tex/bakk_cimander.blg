@@ -2,12 +2,18 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: bakk_cimander.aux
 A level-1 auxiliary file: acronym_list.aux
 The style file: apalike.bst
 Database file #1: Bachelor1.bib
-Warning--to sort, need author or key in TLE
+Warning--I didn't find a database entry for "TLE"
 Warning--empty booktitle in attai_phonesat_2014
 Warning--empty publisher in california_polytechnic_state_university_cubesat_2014
+Warning--empty publisher in csete_gpredict_2011
+Warning--empty year in gnu_radio_companion
+Warning--empty publisher in gnu_radio_companion
+Warning--empty year in gnu_radio_website_welcome_????
+Warning--empty publisher in gnu_radio_website_welcome_????
+Warning--empty publisher in hoots_spacetrack_1980
 Warning--empty publisher in jurvetson_nasa_2011
 Warning--empty publisher in ppl4world_ardusat_2012
 Warning--empty publisher in preindl_optimization_2010
 Warning--empty publisher in ries_boinc_2012
 Warning--empty publisher in surrey_satellite_technology_ltd._iac-11-b4.6b.8_2011
-(There were 8 warnings)
+(There were 14 warnings)

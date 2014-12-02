@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.5)  24 NOV 2014 02:11
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.5)  2 DEC 2014 17:44
 entering extended mode
 **bakk_cimander.tex
 
@@ -923,68 +923,101 @@ Chapter 3.
 ensource_solution.tex")
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\bo
 inc.tex"
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
+
+
+LaTeX Warning: Citation `TLE' on page 4 undefined on input line 9.
+
 Package acronym Info: Label `acro:TLE' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
- <PICs/Diagramm1.png, id=215, 695.59875pt x 509.905pt>
+<PICs/Diagramm1.png, id=214, 695.59875pt x 509.905pt>
 File: PICs/Diagramm1.png Graphic file (type png)
-
-<use PICs/Diagramm1.png>
+ <use PICs/Diagramm1.png>
 Package pdftex.def Info: PICs/Diagramm1.png used on input line 17.
 (pdftex.def)             Requested size: 284.52756pt x 208.57222pt.
 )
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\gp
-redict.tex") [4]
-("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\fl
-digi.tex") [5 <C:/Users/PC/Documents/FH/5. Semester/Bakkarbeit/sat-bak/bachelor
-_draft_tex/PICs/Diagramm1.png>]
+redict.tex"
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
+
+<PICs/functional_overview_satellite_tracking_prog.jpg, id=222, 1072.005pt x 410
+.7345pt>
+File: PICs/functional_overview_satellite_tracking_prog.jpg Graphic file (type j
+pg)
+ <use PICs/functional_overview_satellite_tracking_prog.jpg>
+Package pdftex.def Info: PICs/functional_overview_satellite_tracking_prog.jpg u
+sed on input line 7.
+(pdftex.def)             Requested size: 341.43306pt x 130.81726pt.
+) [4]
+[5 <C:/Users/PC/Documents/FH/5. Semester/Bakkarbeit/sat-bak/bachelor_draft_tex/
+PICs/Diagramm1.png> <C:/Users/PC/Documents/FH/5. Semester/Bakkarbeit/sat-bak/ba
+chelor_draft_tex/PICs/functional_overview_satellite_tracking_prog.jpg>]
+("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\gn
+u_radio.tex"
+Package acronym Info: Label `acro:GRC' newly defined as it shall be overridden
+although it is yet undefined on input line 5.
+ <PICs/GRC_flowgraph.jpg, id=244, 702.625pt x 549.05125pt>
+File: PICs/GRC_flowgraph.jpg Graphic file (type jpg)
+
+<use PICs/GRC_flowgraph.jpg>
+Package pdftex.def Info: PICs/GRC_flowgraph.jpg used on input line 8.
+(pdftex.def)             Requested size: 341.43306pt x 266.80896pt.
+Package acronym Info: Label `acro:FLdigi' newly defined as it shall be overridd
+en
+although it is yet undefined on input line 12.
+) [6 <C:/Users/PC/Documents/FH/5. Semester/Bakkarbeit/sat-bak/bachelor_draft_te
+x/PICs/GRC_flowgraph.jpg>]
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ac
 ronym_list.tex"
 Chapter 4.
-) [6
+) [7
 
 ]
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
-kk_cimander.bbl"
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
-) [7
+kk_cimander.bbl") [8
 
 ]
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
 kk_cimander.lof")
 \tf@lof=\write6
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
+ [9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
 
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
 kk_cimander.aux"
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ac
 ronym_list.aux"))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 49.
 Package rerunfilecheck Info: File `bakk_cimander.out' has not changed.
-(rerunfilecheck)             Checksum: 47403D100577F47BF975CFD52ECE7B99;572.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
+(rerunfilecheck)             Checksum: 330D322AA48F25F7F04FA4466B9B00BB;575.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 10042 strings out of 493921
- 146955 string characters out of 3146489
- 276105 words of memory out of 3000000
- 13029 multiletter control sequences out of 15000+200000
- 39630 words of font info for 57 fonts, out of 3000000 for 9000
+ 10093 strings out of 493921
+ 147970 string characters out of 3146489
+ 278117 words of memory out of 3000000
+ 13064 multiletter control sequences out of 15000+200000
+ 41079 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 47i,11n,44p,660b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,11n,44p,714b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
 les (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x8
 6)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiK
 TeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/helv
-etic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/uplr8a
-.pfb>
-Output written on bakk_cimander.pdf (13 pages, 2050696 bytes).
+etic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/uplb8a
+.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on bakk_cimander.pdf (14 pages, 2348625 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
