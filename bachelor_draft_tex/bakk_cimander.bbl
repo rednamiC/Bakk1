@@ -22,9 +22,9 @@ Attai, W., Guillen, S.~A., Oyadomari, K.~Y., Priscal, C., Shimmin, R.~S.,
 Csete, A. (2011).
 \newblock {\em Gpredict User Manual}.
 
-\bibitem[{GNU Radio Website}, a]{gnu_radio_companion}
+\bibitem[{GNU Radio Website}, a]{gnu_radio_website_grc_????}
 {GNU Radio Website}.
-\newblock {\em GRC}.
+\newblock {\em {GRC}}.
 
 \bibitem[{GNU Radio Website}, b]{gnu_radio_website_welcome_????}
 {GNU Radio Website}.
@@ -52,6 +52,10 @@ Leveque, K., Puig-Suari, J., and Turner, C. (2007).
 \newblock Global educational network for satellite operations ({GENSO}).
 \newblock {\em {AIAA}/{USU} Conference on Small Satellites}.
 
+\bibitem[Pico and Vargas, 2007]{pico_cubesat_2007}
+Pico, L. E.~A. and Vargas, E.~G. (2007).
+\newblock {CUBESAT} - {UD} {TELEMEDICINE} {AND} {TELEMETRY}.
+
 \bibitem[{ppl4world}, 2012]{ppl4world_ardusat_2012}
 {ppl4world} (2012).
 \newblock {\em {ArduSat} - Your Arduino Experiment in Space}.
@@ -64,6 +68,11 @@ Preindl, B. (2010).
 Ries, C.~B. (2012).
 \newblock {\em {BOINC} - Hochleistungsrechnen mit Berkeley Open Infrastructure
   for Network Computing}.
+
+\bibitem[Sanchez et~al., 2007]{sanchez_benefits_2007}
+Sanchez, E., Nicolls, M., Cosgrove, M., and Bahcivan, H. (2007).
+\newblock {\em Benefits of {CubeSats} for scientific investigations of the
+  upper atmosphere}.
 
 \bibitem[{Surrey Satellite Technology Ltd.},
   2011]{surrey_satellite_technology_ltd._iac-11-b4.6b.8_2011}

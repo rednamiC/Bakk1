@@ -6,8 +6,8 @@ Warning--I didn't find a database entry for "TLE"
 Warning--empty booktitle in attai_phonesat_2014
 Warning--empty publisher in california_polytechnic_state_university_cubesat_2014
 Warning--empty publisher in csete_gpredict_2011
-Warning--empty year in gnu_radio_companion
-Warning--empty publisher in gnu_radio_companion
+Warning--empty year in gnu_radio_website_grc_????
+Warning--empty publisher in gnu_radio_website_grc_????
 Warning--empty year in gnu_radio_website_welcome_????
 Warning--empty publisher in gnu_radio_website_welcome_????
 Warning--empty publisher in hoots_spacetrack_1980
@@ -15,5 +15,6 @@ Warning--empty publisher in jurvetson_nasa_2011
 Warning--empty publisher in ppl4world_ardusat_2012
 Warning--empty publisher in preindl_optimization_2010
 Warning--empty publisher in ries_boinc_2012
+Warning--empty publisher in sanchez_benefits_2007
 Warning--empty publisher in surrey_satellite_technology_ltd._iac-11-b4.6b.8_2011
-(There were 14 warnings)
+(There were 15 warnings)

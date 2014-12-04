@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.5)  2 DEC 2014 17:53
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.5)  4 DEC 2014 16:07
 entering extended mode
 **bakk_cimander.tex
 
@@ -801,28 +801,28 @@ Package acronym Info: Label `acro:Cal Poly' newly defined as it shall be overri
 dden
 although it is yet undefined on input line 1.
 Package acronym Info: Label `acro:LEO' newly defined as it shall be overridden
-although it is yet undefined on input line 3.
+although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:MCC' newly defined as it shall be overridden
-although it is yet undefined on input line 3.
+although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:GENSO' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 3.
+although it is yet undefined on input line 6.
 Package acronym Info: Label `acro:BOINSO' newly defined as it shall be overridd
 en
-although it is yet undefined on input line 5.
+although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:BOINC' newly defined as it shall be overridde
 n
-although it is yet undefined on input line 5.
+although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:GNU GPL' newly defined as it shall be overrid
 den
-although it is yet undefined on input line 7.
+although it is yet undefined on input line 10.
 ) [-7
 
 ]
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ab
 stract.tex"
 Package acronym Info: Label `acro:GCC' newly defined as it shall be overridden
-although it is yet undefined on input line 3.
+although it is yet undefined on input line 7.
 ) [-6
 
 ]
@@ -866,17 +866,19 @@ besats.tex"
 Package acronym Info: Label `acro:SSDL' newly defined as it shall be overridden
 
 although it is yet undefined on input line 1.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
 Package acronym Info: Label `acro:SSTL' newly defined as it shall be overridden
 
-although it is yet undefined on input line 5.
+although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:NASA' newly defined as it shall be overridden
 
-although it is yet undefined on input line 5.
- <PICs/NASA_PhoneSat.jpg, id=167, 1284.8pt x 963.6pt>
+although it is yet undefined on input line 9.
+ <PICs/NASA_PhoneSat.jpg, id=169, 1284.8pt x 963.6pt>
 File: PICs/NASA_PhoneSat.jpg Graphic file (type jpg)
 
 <use PICs/NASA_PhoneSat.jpg>
-Package pdftex.def Info: PICs/NASA_PhoneSat.jpg used on input line 9.
+Package pdftex.def Info: PICs/NASA_PhoneSat.jpg used on input line 13.
 (pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
 )
 Underfull \hbox (badness 1681) in paragraph at lines 1--30
@@ -931,7 +933,7 @@ LaTeX Warning: Citation `TLE' on page 4 undefined on input line 9.
 
 Package acronym Info: Label `acro:TLE' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
-<PICs/Diagramm1.png, id=214, 695.59875pt x 509.905pt>
+<PICs/Diagramm1.png, id=219, 695.59875pt x 509.905pt>
 File: PICs/Diagramm1.png Graphic file (type png)
  <use PICs/Diagramm1.png>
 Package pdftex.def Info: PICs/Diagramm1.png used on input line 17.
@@ -939,10 +941,7 @@ Package pdftex.def Info: PICs/Diagramm1.png used on input line 17.
 )
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\gp
 redict.tex"
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 3.
-
-<PICs/functional_overview_satellite_tracking_prog.jpg, id=222, 1072.005pt x 410
+<PICs/functional_overview_satellite_tracking_prog.jpg, id=227, 1072.005pt x 410
 .7345pt>
 File: PICs/functional_overview_satellite_tracking_prog.jpg Graphic file (type j
 pg)
@@ -958,7 +957,7 @@ chelor_draft_tex/PICs/functional_overview_satellite_tracking_prog.jpg>]
 u_radio.tex"
 Package acronym Info: Label `acro:GRC' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
- <PICs/GRC_flowgraph.jpg, id=244, 702.625pt x 549.05125pt>
+ <PICs/GRC_flowgraph.jpg, id=248, 702.625pt x 549.05125pt>
 File: PICs/GRC_flowgraph.jpg Graphic file (type jpg)
 
 <use PICs/GRC_flowgraph.jpg>
@@ -976,14 +975,19 @@ Chapter 4.
 
 ]
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
-kk_cimander.bbl") [8
+kk_cimander.bbl"
+Underfull \hbox (badness 1852) in paragraph at lines 56--58
+[]\T1/phv/m/n/10.95 Pico, L. E. A. and Var-gas, E. G. (2007).  CUBE-SAT - UD
+ []
 
-]
+[8
+
+]) [9]
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
 kk_cimander.lof")
 \tf@lof=\write6
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
- [9]
+ [10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
 
 ("C:\Users\PC\Documents\FH\5. Semester\Bakkarbeit\sat-bak\bachelor_draft_tex\ba
@@ -1001,10 +1005,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 10093 strings out of 493921
- 147970 string characters out of 3146489
- 277117 words of memory out of 3000000
- 13064 multiletter control sequences out of 15000+200000
+ 10100 strings out of 493921
+ 148130 string characters out of 3146489
+ 278279 words of memory out of 3000000
+ 13068 multiletter control sequences out of 15000+200000
  41079 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  47i,11n,44p,714b,511s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1015,9 +1019,9 @@ TeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/ty
 pe1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/helv
 etic/uhvro8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/uplb8a
 .pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on bakk_cimander.pdf (14 pages, 2348591 bytes).
+Output written on bakk_cimander.pdf (15 pages, 2352073 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 89 named destinations out of 1000 (max. 500000)
+ 344 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
